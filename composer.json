@@ -1,0 +1,27 @@
+{
+    "name": "lyhiving/lightsail",
+    "description": "AWS lightsail SDK",
+    "keywords": ["lightsail","AWS"],
+    "homepage": "https://github.com/lyhiving/lightsail",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "lyhiving",
+        "email": "lyhiving@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "aws/aws-sdk-php": "^3.62.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "lyhiving\\lightSail\\": "src/"
+        }
+    },
+    "config": {
+        "secure-http": false
+    },
+    "minimum-stability": "dev"
+}
